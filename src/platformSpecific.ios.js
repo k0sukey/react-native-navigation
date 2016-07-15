@@ -102,7 +102,7 @@ function startSingleScreenApp(params) {
             passPropsRight={{navigatorID: navigatorID}}
             disableOpenGesture={params.drawer.disableOpenGesture}
             type={params.drawer.type ? params.drawer.type : undefined}
-            animationType={params.drawer.animationType ? params.drawer.animationType : undefined>
+            animationType={params.drawer.animationType ? params.drawer.animationType : undefined}>
             {this.renderBody()}
           </DrawerControllerIOS>
         );
